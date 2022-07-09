@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+      "com.inklestudios.ink-unity-integration": "1.0.0",
+      "com.unity.2d.spriteshape": "4.0.0"
+    },
+    "scopedRegistries": [
+      {
+        "name": "OpenUPM",
+        "url": "https://package.openupm.com",
+        "scopes": [
+          "com.inklestudios.ink-unity-integration"
+        ]
+      }
+    ],
+    "testables": [
+      "com.unity.inputsystem"
+    ]
+  }
+  
