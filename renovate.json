@@ -1,3 +1,12 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "unity-editor",
+      "matchPackageNames": [
+        "m_editorversionwithrevision",
+        "m_editorversion"
+      ]
+    }
+  ]
 }
