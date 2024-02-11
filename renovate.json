@@ -3,9 +3,8 @@
   "packageRules": [
     {
       "groupName": "unity-editor",
-      "matchPackageNames": [
-        "m_editorversionwithrevision",
-        "m_editorversion"
+      "matchPackagePatterns": [
+        "m_editorversion*"
       ]
     }
   ]
